@@ -1,3 +1,5 @@
-# Skripsi Keuangan
+## SKRIPSI KEUANGAN SEKOLAH DASAR
+
+# CHANGELOGS
 Updated 28 Juni 2019
 - Setting Laravel
