@@ -46,6 +46,27 @@ return [
             'provider' => 'users',
             'hash' => false,
         ],
+
+        'admin' => [
+            'driver' => 'session',
+            'provider' => 'admin',
+        ],
+
+        'wali' => [
+            'driver' => 'session',
+            'provider' => 'siswa',
+        ],
+
+        'tu' => [
+            'driver' => 'session',
+            'provider' => 'guru',
+        ],
+
+        'kepsek' => [
+            'driver' => 'session',
+            'provider' => 'guru',
+        ],
+
     ],
 
     /*
@@ -70,6 +91,22 @@ return [
             'driver' => 'eloquent',
             'model' => App\User::class,
         ],
+
+        'admin' => [
+            'driver' => 'eloquent',
+            'model' => App\Admin::class,
+        ],
+
+        'guru' => [
+            'driver' => 'eloquent',
+            'model' => App\Guru::class,
+        ],
+
+        'siswa' => [
+            'driver' => 'eloquent',
+            'model' => App\Siswa::class,
+        ],
+
 
         // 'users' => [
         //     'driver' => 'database',
